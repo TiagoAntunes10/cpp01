@@ -6,7 +6,7 @@
 /*   By: tialbert <tialbert@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 22:21:18 by tialbert          #+#    #+#             */
-/*   Updated: 2025/03/04 15:45:56 by tialbert         ###   ########.fr       */
+/*   Updated: 2025/03/08 12:51:54 by tialbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@
 
 class HumanA {
 	public:
-		HumanA( std::string name, Weapon &weapon);
+		HumanA( std::string name, Weapon &weapon ):	_weapon(weapon), _name(name) { };
 		void	attack( void );
 
 	private:
-		Weapon		_weapon;
+		Weapon		&_weapon;
 		std::string	_name;
 	
 };

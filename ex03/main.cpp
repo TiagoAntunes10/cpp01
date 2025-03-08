@@ -6,13 +6,11 @@
 /*   By: tialbert <tialbert@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 22:17:21 by tialbert          #+#    #+#             */
-/*   Updated: 2025/02/28 22:34:16 by tialbert         ###   ########.fr       */
+/*   Updated: 2025/03/07 22:39:07 by tialbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Include/HumanA.hpp"
-#include "./Include/HumanB.hpp"
-#include "./Include/Weapon.hpp"
+#include "./Include/includes.hpp"
 
 int main( void ) {
 	{

@@ -1,11 +1,11 @@
 LIB = ./Include
 PRE = ./
 
-SOURCE = main.cpp Zombie.cpp zombieHorde.cpp
+SOURCE = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 
 SOURCES = ${addprefix $(PRE), $(SOURCE)}
 
-NAME = zombies
+NAME = violence
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
