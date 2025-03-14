@@ -5,7 +5,7 @@ SOURCE = main.cpp Harl.cpp
 
 SOURCES = ${addprefix $(PRE), $(SOURCE)}
 
-NAME = harl_filter
+NAME = harlFilter
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
