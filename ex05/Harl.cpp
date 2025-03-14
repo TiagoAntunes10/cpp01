@@ -6,7 +6,7 @@
 /*   By: tialbert <tialbert@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/09 12:24:24 by tialbert          #+#    #+#             */
-/*   Updated: 2025/03/10 22:25:28 by tialbert         ###   ########.fr       */
+/*   Updated: 2025/03/14 22:26:55 by tialbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ static int	find_level(std::string level) {
 	return (-1);
 }
 
-// TODO: declaration of pointer functions is not correct
 void	Harl::complain( std::string level ) {
 	void	(Harl::*fn[])(void) = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };
 	int		index;
